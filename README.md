@@ -8,11 +8,11 @@ Each cascade is saved in a csv file with following properties:
 
 |   Property   |         Description          |
 | :----------: | :--------------------------: |
-|   *origin*   | source post id (be reposted) |
-| *origin_uid* |     source post user id      |
+|   *origin*   | precursor post id (be reposted) |
+| *origin_uid* |  user id of precursor post   |
 |     *id*     |           post id            |
 |    *uid*     |           user id            |
-|  created_at  |       post/repost time       |
+|  created_at  |        (re)post time         |
 
 - **The properties of italics is the private user information, which are hashed;**
 - Property `created_at` is format as `YYYY-mm-DD HH:MM:SS` ;
