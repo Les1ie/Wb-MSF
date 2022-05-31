@@ -8,7 +8,7 @@ Each cascade is saved in a csv file with following properties:
 
 |   Property   |         Description          |
 | :----------: | :--------------------------: |
-|   *origin*   | precursor post id (be reposted) |
+|   *origin_id*   | precursor post id (be reposted) |
 | *origin_uid* |  user id of precursor post   |
 |     *id*     |           post id            |
 |    *uid*     |           user id            |
@@ -16,7 +16,7 @@ Each cascade is saved in a csv file with following properties:
 
 - **The properties of italics is the private user information, which are hashed;**
 - Property `created_at` is format as `YYYY-mm-DD HH:MM:SS` ;
-- If `origin` is `NULL` and `origin_uid == uid` , means this post is original and not reposted.
+- If `origin_id` is `NULL` and `origin_uid == uid` , means this post is original and not reposted.
 
 ### Followership
 
