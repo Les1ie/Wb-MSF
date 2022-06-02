@@ -12,7 +12,7 @@ Each cascade is saved in a csv file with following properties:
 | *origin_uid* |  user id of precursor post   |
 |     *id*     |           post id            |
 |    *uid*     |           user id            |
-|  created_at  |        (re)post time         |
+|  *created_at*  |        (re)post time         |
 
 - **The properties of italics is the private user information, which are hashed;**
 - Property `created_at` is format as `YYYY-mm-DD HH:MM:SS` ;
@@ -33,7 +33,7 @@ The full version will be released soon.
 ## Cite Us
 ```
 @inproceedings{wbmsf2022,
-  author          = {Wu, Zhen and Zhou, Jingya and Liu, Ling and Wang, Jie and Sun, Xigang},
+  author          = {Wu, Zhen and Zhou, Jingya and Liu, Ling and Wei, Wenqi and Wang, Jie and Sun, Xigang},
   booktitle       = {Proceedings of the 31st ACM International Conference on Information and Knowledge Management},
   title           = {Wb-MSF: Multi-Source Information Diffusion Dataset on Weibo},
   year            = {2022}
