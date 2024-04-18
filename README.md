@@ -26,9 +26,8 @@ Each dataset has a global followership network, format as edge list: each line o
 To protect user privacy, we anonymize the data: i.e., we hash the fields related to `user-id` and `post-id`.
 
 ## Download
-Due to the limitation of file size, you can download the small-scale version of Wb-MSF from the [release page](https://github.com/Les1ie/Wb-MSF/releases/tag/v0.0.1) of this repository (MSC and SSC both contain 1K cascades).
-
-The full version will be released soon.
+- The small-scale version (MSC and SSC both contain 1K cascades): [WB-MSF-1k](https://github.com/Les1ie/Wb-MSF/releases/tag/v0.0.1) 
+- Full version: [WB-MSF](https://github.com/Les1ie/Wb-MSF/releases/tag/v0.1.0)
 
 ## Cite Us
 ```
