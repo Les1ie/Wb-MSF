@@ -32,10 +32,17 @@ The full version will be released soon.
 
 ## Cite Us
 ```
-@inproceedings{wbmsf2022,
-  author          = {Wu, Zhen and Zhou, Jingya and Liu, Ling and Wei, Wenqi and Wang, Jie and Sun, Xigang},
-  booktitle       = {Proceedings of the 31st ACM International Conference on Information and Knowledge Management},
-  title           = {Wb-MSF: Multi-Source Information Diffusion Dataset on Weibo},
+@inproceedings{WBMSF_2022,
+  author     = {Wu, Zhen and Zhou, Jingya and Wang, Jie and Sun, Xigang},
+  title      = {Wb-MSF: A Large-scale Multi-source Information Diffusion Dataset for Social Information Diffusion Prediction},
+  booktitle  = {2022 Tenth International Conference on Advanced Cloud and Big Data (CBD)},
+  year       = {2022},
+}
+
+@inproceedings{HERIGCN_2022,
+  author          = {Wu, Zhen and Zhou, Jingya and Liu, Ling and Li, Chaozhuo and Gu, Fei},
+  title           = {Deep Popularity Prediction in Multi-Source Cascade with HERI-GCN},
+  booktitle       = {2022 IEEE 38th International Conference on Data Engineering (ICDE)},
   year            = {2022}
 }
 ```
